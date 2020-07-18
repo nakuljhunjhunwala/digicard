@@ -1,13 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://images.pexels.com/photos/583846/pexels-photo-583846.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: floralwhite;
+  font-family: 'Roboto', 'san-serif';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.digicard {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 400px;
+  background-color: brown;
+  margin: auto;
+  overflow: hidden;
+
+}
+
+.pback {
+  width: 100%;
+  min-height: 150px;
+  background-color: blue;
+}
+
+.details {
+  width: 100%;
+}
+
+.profile-box {
+  min-height: 180px;
+  width: 80%;
+  padding: 20px 10px;
+  background-color: ghostwhite;
+  z-index: 6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: -100px;
+}
+
+.profile {
+  height: 85px;
+  width: 85px;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  color: black;
+  margin: auto;
+}
+
+
+.container h1 {
+  font-weight: 700;
+  font-size: 19px;
+}
+
+
+.container p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+
+.info {
+  width: 100%;
+  padding: 0 25px;
+  height: 600px;
+  background-color: brown;
+}
+
+.titles {
+  width: 80%;
+  padding: 0px 0px 0px 15px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 35px;
+  border-left: 6px solid #4cd35e75;
+  background-color: rgba(10, 10, 10, 0.4);
+  color: white;
+  letter-spacing: 0.4px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.info-container {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.button-box {
+  width: 70px;
+  height: 65px;
+
+  margin-bottom: 15px;
+  margin-top: 10px;
+
+}
+
+.button{
+  height: 43px;
+  width: 43px;
+  border-radius: 100%;
+  background-color: seagreen;
+  margin: auto;
+  margin-bottom: -10px;
+}
+
+.button-box p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
 }
