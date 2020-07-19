@@ -15,7 +15,9 @@ body {
   font-family: 'Roboto', 'san-serif';
 }
 
-
+::-webkit-scrollbar {
+  width: 2px;
+}
 
 .digicard {
   min-height: 100vh;
@@ -39,6 +41,7 @@ body {
 }
 
 .details {
+  position: relative;
   width: 100%;
  
  
@@ -127,7 +130,6 @@ body {
   background-color: rgba(111, 231, 247, 0.644);
   margin: auto;
   margin-bottom: -10px;
- 
   line-height: 43px;
 }
 
@@ -136,4 +138,44 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
+}
+
+
+
+.fbutton-box {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-left: 5px;
+  color: antiquewhite;
+  cursor: pointer;
+
+}
+
+.fbutton{
+  height: 38px;
+  width: 38px;
+  border-radius: 100%;
+  background-color: rgba(111, 231, 247, 0.644);
+  margin: auto;
+  line-height: 38px;
+}
+
+.footer{
+  
+  height: 20px;
+  background-color: #222222;
+  min-width: 100%;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  line-height: 20px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  margin-left: -25px;
+  margin-top: 20px;
 }

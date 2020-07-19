@@ -6,8 +6,7 @@ function App() {
     div className = "App" >
 
 
-    <
-    div className = "digicard" >
+    <div className = "digicard" >
 
     <div className = "pback">
 
@@ -126,16 +125,60 @@ function App() {
         </div>
         <p>Globe</p>
         </div>
-        
+
+        </div>
+
+        <p className="titles">Follow :-</p>
+
+        <div className="info-container">
+    
+          <div className="fbutton-box">
+          <div className="fbutton">
+          <i class="fab fa-facebook-f"></i>
+          </div>
+          
+          </div>
+          <div className="fbutton-box">
+          <div className="fbutton">
+          <i class="fab fa-twitter"></i>
+          </div>
+          
+          </div>
+          <div className="fbutton-box">
+          <div className="fbutton">
+          <i class="fab fa-youtube"></i>
+          </div>
+          
+          </div>
+          <div className="fbutton-box">
+          <div className="fbutton">
+          <i class="fab fa-instagram"></i>
+          </div>
+         
+          </div>
+    
+          <div className="fbutton-box">
+          <div className="fbutton">
+          <i class="fab fa-quora"></i>
+          </div>
+          
+          </div>
+         
+    
         </div>
 
 
 
       
     
-
+        <div className="footer">
+        &copy; 2020 Nakul Jhunjhunwala
+        </div>
     </div>
+   
     </div>
+    
+    
     </div>
 
 
