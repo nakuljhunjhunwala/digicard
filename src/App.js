@@ -48,78 +48,71 @@ function App() {
 
       <div className="button-box">
       <div className="button">
-      
+      <i class="fas fa-phone-alt"></i>
       </div>
-      <p>text</p>
-      </div>
-      <div className="button-box">
-      <div className="button">
-      
-      </div>
-      <p>text</p>
+      <p>Call Me</p>
       </div>
       <div className="button-box">
       <div className="button">
-      
+      <i class="fas fa-envelope"></i>
       </div>
-      <p>text</p>
-      </div>
-      <div className="button-box">
-      <div className="button">
-
-      </div>
-      <p>text</p>
-      </div>
-
-      <div className="button-box">
-      <div className="button">
-      
-      </div>
-      <p>text</p>
+      <p>Email Me</p>
       </div>
       <div className="button-box">
       <div className="button">
-      
+      <i class="fab fa-whatsapp"></i>
       </div>
-      <p>text</p>
-      </div>
-      <div className="button-box">
-      <div className="button">
-      
-      </div>
-      <p>text</p>
+      <p>Whatsapp</p>
       </div>
       <div className="button-box">
       <div className="button">
-
+      <i class="fab fa-skype"></i>
       </div>
-      <p>text</p>
+      <p>Skype</p>
       </div>
 
+      <div className="button-box">
+      <div className="button">
+      <i class="fab fa-facebook-messenger"></i>
+      </div>
+      <p>FB Chat</p>
+      </div>
+      <div className="button-box">
+      <div className="button">
+      <i class="fas fa-user-plus"></i>
+      </div>
+      <p>Save Me</p>
+      </div>
+      <div className="button-box">
+      <div className="button">
+      <i class="far fa-credit-card"></i>
+      </div>
+      <p>Pay Me</p>
+      </div>
+     
 
     </div>
 
     <p className="titles">Profile :-</p>
     <div className="info-container">
 
-
       <div className="button-box">
       <div className="button">
-      
+      <i class="fas fa-user"></i>
       </div>
-      <p>text</p>
-      </div>
-      <div className="button-box">
-      <div className="button">
-      
-      </div>
-      <p>text</p>
+      <p>About Me</p>
       </div>
       <div className="button-box">
       <div className="button">
-      
+      <i class="fas fa-briefcase"></i>
       </div>
-      <p>text</p>
+      <p>Experience</p>
+      </div>
+      <div className="button-box">
+      <div className="button">
+      <i class="fas fa-share-alt"></i>
+      </div>
+      <p>Share Me</p>
       </div>
       
       </div>
