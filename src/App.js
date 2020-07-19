@@ -9,13 +9,7 @@ function App() {
     <
     div className = "digicard" >
 
-    <div className = "pback"
-    // style = {
-    //   {
-    //     backgroundImage: "url(https://www.websys.co.in/ban2019/banners6.jpg)"
-    //   }
-    // }
-     >
+    <div className = "pback">
 
     </div> 
     
@@ -116,19 +110,32 @@ function App() {
       </div>
       
       </div>
+      
+      <p className="titles">Company :-</p>
+      <div className="info-container">
+  
+        <div className="button-box">
+        <div className="button">
+        <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <p>Address</p>
+        </div>
+        <div className="button-box">
+        <div className="button">
+        <i class="fas fa-globe"></i>
+        </div>
+        <p>Globe</p>
+        </div>
+        
+        </div>
+
+
+
+      
     
 
     </div>
-
-    
-   
-    
-    
-    
     </div>
-
-
-
     </div>
 
 

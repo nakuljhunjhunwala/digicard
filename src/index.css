@@ -23,8 +23,8 @@ body {
   max-width: 400px;
   background-color: brown;
   margin: auto;
-  overflow: hidden;
-
+  
+  overflow-x: hidden;
   background-image: url("https://app.makevcard.com/public/vcard5/vjimages/realestate2-min.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -45,9 +45,9 @@ body {
 }
 
 .profile-box {
-  min-height: 180px;
-  width: 80%;
-  padding: 20px 10px;
+  min-height: 170px;
+  width: 75%;
+  padding: 15px 10px;
   background-color: ghostwhite;
   z-index: 6;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -116,6 +116,7 @@ body {
   margin-top: 10px;
   margin-left: 5px;
   color: antiquewhite;
+  cursor: pointer;
 
 }
 
