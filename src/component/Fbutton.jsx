@@ -5,7 +5,7 @@ import React from 'react';
 
 function Fbutton({logo,onclick}) {
 
-    onclick = (onclick===true) ? onclick : "#"; 
+    var url = onclick ? onclick : "#";
 
 const follow ={
     facebook: "fas fa-phone-alt",
@@ -18,7 +18,7 @@ const follow ={
 
     return(
         <div className="fbutton-box" onClick={()=>{
-            window.open(onclick,"_blank");
+            window.open(url,"_blank");
         }}>
       <div className="fbutton">
       
