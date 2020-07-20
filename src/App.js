@@ -1,189 +1,110 @@
 import React from 'react';
+import Cbutton from "./component/Cbutton"
+import Fbutton from "./component/Fbutton"
+import Footer from "./component/Footer"
+import ProfileBox from "./component/ProfileBox"
+import Preloader from "./component/Preloader"
 
 
 function App() {
-  return ( <
-    div className = "App" >
 
 
-    <div className = "digicard" >
+  function preloader(){
+    document.getElementById("preloader").style.display = "none";
+ }
 
-    <div className = "pback">
+ window.onload = preloader;
 
-    </div> 
-    
+  return ( 
+<div className = "App" >
+
+<Preloader></Preloader>
+
+
+  <div className = "digicard">
+  <div className = "pback"></div> 
     <div className = "details" >
+      <ProfileBox 
+        name="Nakul Jhunjhunwala"
+        profession="Web Developer"
+        logo="https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/s150x150/75296733_441851223392219_5753152136586199040_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_ohc=t5dPmS8B510AX9iMo4t&oh=b99f236f1d08014f76ef6570a261d06b&oe=5F3987C4"
+      ></ProfileBox>
 
-    <center >
-    <div className = "profile-box" >
-    <div className = "container" >
-      <div className = "profile"
-      style = {
-        {
-          backgroundImage: "url(https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/s150x150/75296733_441851223392219_5753152136586199040_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_ohc=t5dPmS8B510AX9iMo4t&oh=b99f236f1d08014f76ef6570a261d06b&oe=5F3987C4)"
-        }
-      } 
-      >
+      <div className="info">
 
-      </div>
+        <p className="titles">Contact :-</p>
+          <div className="info-container">
+            <Cbutton 
+            logo="contact.phone" 
+            text="Call Me"
+            onclick="tel:8856020006"></Cbutton>
+            <Cbutton 
+            logo="contact.mail" 
+            text="Email Me"
+            onclick="mailto:jhunjhunwalanakul@gmail.com"></Cbutton>
+            <Cbutton 
+            logo="contact.whatsapp" 
+            text="Whatsapp"></Cbutton>
+            <Cbutton 
+            logo="contact.skype" 
+            text="Skype"></Cbutton>
+            <Cbutton 
+            logo="contact.messenger" 
+            text="FB Chat"></Cbutton>
+            <Cbutton 
+            logo="contact.saveMe" 
+            text="Save Me"></Cbutton>
+            <Cbutton 
+            logo="contact.payMe" 
+            text="Pay Me"></Cbutton>
+          </div>
 
-      <h1> Nakul Jhunjhunwala </h1> <p> Web Developer </p> 
-    </div>
+        <p className="titles">Profile :-</p>
+          <div className="info-container">
+           <Cbutton 
+           logo="profile.aboutMe" 
+           text="About"></Cbutton>
+           <Cbutton 
+           logo="profile.experience" 
+           text="Experience"></Cbutton>
+           <Cbutton 
+           logo="profile.share" 
+           text="Share Me"></Cbutton>
+          </div>
 
-    </div> 
-    </center> 
-    
-    <div className="info">
-    <p className="titles">Contact :-</p>
-
-    <div className="info-container">
-
-
-      <div className="button-box">
-      <div className="button">
-      <i class="fas fa-phone-alt"></i>
-      </div>
-      <p>Call Me</p>
-      </div>
-      <div className="button-box">
-      <div className="button">
-      <i class="fas fa-envelope"></i>
-      </div>
-      <p>Email Me</p>
-      </div>
-      <div className="button-box">
-      <div className="button">
-      <i class="fab fa-whatsapp"></i>
-      </div>
-      <p>Whatsapp</p>
-      </div>
-      <div className="button-box">
-      <div className="button">
-      <i class="fab fa-skype"></i>
-      </div>
-      <p>Skype</p>
-      </div>
-
-      <div className="button-box">
-      <div className="button">
-      <i class="fab fa-facebook-messenger"></i>
-      </div>
-      <p>FB Chat</p>
-      </div>
-      <div className="button-box">
-      <div className="button">
-      <i class="fas fa-user-plus"></i>
-      </div>
-      <p>Save Me</p>
-      </div>
-      <div className="button-box">
-      <div className="button">
-      <i class="far fa-credit-card"></i>
-      </div>
-      <p>Pay Me</p>
-      </div>
-     
-
-    </div>
-
-    <p className="titles">Profile :-</p>
-    <div className="info-container">
-
-      <div className="button-box">
-      <div className="button">
-      <i class="fas fa-user"></i>
-      </div>
-      <p>About Me</p>
-      </div>
-      <div className="button-box">
-      <div className="button">
-      <i class="fas fa-briefcase"></i>
-      </div>
-      <p>Experience</p>
-      </div>
-      <div className="button-box">
-      <div className="button">
-      <i class="fas fa-share-alt"></i>
-      </div>
-      <p>Share Me</p>
-      </div>
-      
-      </div>
-      
-      <p className="titles">Company :-</p>
-      <div className="info-container">
-  
-        <div className="button-box">
-        <div className="button">
-        <i class="fas fa-map-marker-alt"></i>
-        </div>
-        <p>Address</p>
-        </div>
-        <div className="button-box">
-        <div className="button">
-        <i class="fas fa-globe"></i>
-        </div>
-        <p>Globe</p>
-        </div>
-
-        </div>
+        <p className="titles">Company :-</p>
+          <div className="info-container">
+            <Cbutton 
+            logo="company.address" 
+            text="Address"></Cbutton>
+            <Cbutton 
+            logo="company.website" 
+            text="Website"></Cbutton>
+          </div>
 
         <p className="titles">Follow :-</p>
-
-        <div className="info-container">
-    
-          <div className="fbutton-box">
-          <div className="fbutton">
-          <i class="fab fa-facebook-f"></i>
+          <div className="info-container">
+            <Fbutton 
+              logo="follow.facebook">
+            </Fbutton>
+            <Fbutton 
+              logo="follow.twitter">
+            </Fbutton>
+            <Fbutton 
+              logo="follow.youtube">
+            </Fbutton>
+            <Fbutton 
+              logo="follow.insta">
+            </Fbutton>
+            <Fbutton 
+              logo="follow.quora">
+            </Fbutton>
           </div>
-          
-          </div>
-          <div className="fbutton-box">
-          <div className="fbutton">
-          <i class="fab fa-twitter"></i>
-          </div>
-          
-          </div>
-          <div className="fbutton-box">
-          <div className="fbutton">
-          <i class="fab fa-youtube"></i>
-          </div>
-          
-          </div>
-          <div className="fbutton-box">
-          <div className="fbutton">
-          <i class="fab fa-instagram"></i>
-          </div>
-         
-          </div>
-    
-          <div className="fbutton-box">
-          <div className="fbutton">
-          <i class="fab fa-quora"></i>
-          </div>
-          
-          </div>
-         
-    
-        </div>
-
-
-
-      
-    
-        <div className="footer">
-        &copy; 2020 Nakul Jhunjhunwala
-        </div>
+        <Footer></Footer>
+      </div>
     </div>
-   
-    </div>
-    
-    
-    </div>
-
-
-
-    </div>
+  </div>
+</div>
   );
 }
 
