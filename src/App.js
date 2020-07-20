@@ -37,11 +37,11 @@ function App() {
             <Cbutton 
             logo="contact.phone" 
             text="Call Me"
-            onclick="tel:8856020006"></Cbutton>
+            onclick="window.open('tel:8856020006' , '_self')"></Cbutton>
             <Cbutton 
             logo="contact.mail" 
             text="Email Me"
-            onclick="mailto:jhunjhunwalanakul@gmail.com"></Cbutton>
+            onclick="window.open('mailto:jhunjhunwalanakul@gmail.com','_self')"></Cbutton>
             <Cbutton 
             logo="contact.whatsapp" 
             text="Whatsapp"></Cbutton>

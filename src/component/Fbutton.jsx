@@ -18,7 +18,7 @@ const follow ={
 
     return(
         <div className="fbutton-box" onClick={()=>{
-            window.open(url,"_blank");
+            eval(onclick)
         }}>
       <div className="fbutton">
       

@@ -5,7 +5,7 @@
 import React from 'react';
 
 function Cbutton({logo, text, onclick}) {
-    var url = onclick ? onclick : "#"; 
+ 
 
 const contact ={
     phone: "fas fa-phone-alt",
@@ -33,7 +33,7 @@ const company = {
 
     return(
         <div className="button-box" onClick={()=>{
-            window.open(url,"_blank");
+            eval(onclick);
         }} >
       <div className="button">
       
