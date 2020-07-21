@@ -8,11 +8,11 @@ function Fbutton({logo,onclick}) {
     var url = onclick ? onclick : "#";
 
 const follow ={
-    facebook: "fas fa-phone-alt",
-    twitter: "fas fa-envelope",
-    insta: "fab fa-whatsapp",
-    youtube: "fab fa-skype",
-    quora: "fab fa-facebook-messenger",
+    facebook: "fab fa-facebook-f",
+    twitter: "fab fa-twitter",
+    insta: "fab fa-instagram",
+    youtube: "fab fa-youtube",
+    quora: "fab fa-quora",
 }
 
 

@@ -128,7 +128,7 @@ body {
   font-size: 17px;
   font-weight: 500;
   line-height: 35px;
-  border-left: 6px solid rgb(111, 231, 247);;
+  border-left: 6px solid rgb(111, 231, 247);
   background-color: rgba(10, 10, 10, 0.4);
   color: white;
   letter-spacing: 0.4px;
@@ -211,4 +211,58 @@ body {
   letter-spacing: 0.5px;
   margin-left: -25px;
   margin-top: 20px;
+}
+
+.blankpage{
+  position: fixed;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  z-index: 12;
+  text-align: center;
+  overflow: scroll;
+  display: none;
+  transition: all 0.3s ease;
+}
+
+.blankpage h2{
+  background-image: url("https://app.makevcard.com/public/vcard5/vjimages/realestate2-min.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 15px;
+ 
+}
+
+.blankpage img{
+  height: 150px;
+  width: 150px;
+}
+
+.b-container{
+  color:#555555;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.b-container p{
+  text-align: center;
+}
+
+.closeMe{
+  padding: 13px 20px;
+  background-color:rgb(111, 231, 247) ;
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  cursor: pointer;
 }
