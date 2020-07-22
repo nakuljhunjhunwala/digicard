@@ -10,7 +10,7 @@ function SaveContact({qrcode,vcf}) {
 
 <div className="b-container">
     <h4>Save my Contact Information in your phone book</h4>
-    <img src={qrcode}></img>
+    <img src={qrcode} alt="Qr Code"></img>
     <div>
       <p>Scan above QR Code OR</p>
       <p><b>Step : 1 -</b> Download this <a href={vcf}>VCF File</a></p>
