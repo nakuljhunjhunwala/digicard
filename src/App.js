@@ -177,14 +177,79 @@ function sample() {
 
       <div className="info">
 
-        <div className="normal-container">
+      <div className="info-container normal-container">
 
-
+        <div className="inline" onClick={()=>{window.open('tel:8856020006' , '_self')}}>
+          <Cbutton logo="contact.phone" ></Cbutton>
+          <p className="s2">8856020006</p>
         </div>
-        
+          <p>&nbsp; &nbsp; &nbsp; &nbsp;</p>  
+
+        <div className="inline" onClick={()=>{window.open('tel:9834077320' , '_self')}}>
+          <Cbutton logo="contact.phone" ></Cbutton>
+          <p className="s2">9834077320</p>
+        </div>
+
+        <div className="inline" onClick={()=>{window.open('mailto:jhunjhunwalanakul@gmail.com' , '_self')}}>
+          <Cbutton logo="contact.mail" ></Cbutton>
+          <p className="s2">jhunjhunwalanakul@gmail.com</p>
+        </div>
+
+        <div className="inline" onClick={()=>{window.open('https://nakuljhunjhunwala.github.io/Portfolio/')}}>
+          <Cbutton logo="company.website" ></Cbutton>
+          <p className="s2">https://nakuljhunjhunwala.github.io/Portfolio/</p>
+        </div>
+
+        <div className="inline" onClick={()=>{window.open('https://wa.link/cikuz6')}}>
+          <Cbutton logo="contact.whatsapp" ></Cbutton>
+          <p className="s2">Chat on Whatsapp</p>
+        </div>
+
+
+        <div className="inline" onClick={()=>{window.open('https://www.vcard.link/card/D7cb.vcf' , '_self')}}>
+          <Cbutton logo="contact.saveMe" ></Cbutton>
+          <p className="s2">Save to PhoneBook</p>
+        </div>
+
+
+        <div className="inline" onClick={()=>{window.open('https://goo.gl/maps/NxXr4EnNuuNNro1U7' , '_self')}}>
+          <Cbutton logo="company.address" ></Cbutton>
+          <p className="s2">SS5 Mansarovar ,Bhiwandi- 421302</p>
+        </div>
+
+
       </div>
-      <Footer></Footer>
+
+      <div className="info-container">
+      <p className="titles " style={{textAlign: "left"}}>Follow me on:-</p>
+            <Fbutton 
+              logo="follow.facebook"
+              onclick="window.open('https://www.facebook.com/nakul.jhunjhunwala')">
+            </Fbutton>
+            <Fbutton 
+              logo="follow.twitter"
+              onclick="window.open('https://twitter.com/NakulJhunjhunw1')">
+            </Fbutton>
+            <Fbutton 
+              logo="follow.youtube">
+            </Fbutton>
+            <Fbutton 
+              logo="follow.insta"
+              onclick="window.open('https://www.instagram.com/nakuljhunjhunwala/')">
+            </Fbutton>
+            <Fbutton 
+              logo="follow.quora"
+              onclick="window.open('https://www.quora.com/profile/Nakul-Jhunjhunwala')">
+            </Fbutton>
+          </div>
+        
+
+          <Footer></Footer>
+      </div>
+
+      
     </div>
+    
   </div>
 </div>
   );
