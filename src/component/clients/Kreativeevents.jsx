@@ -37,8 +37,8 @@ function Kreativeevents() {
       <div className = "details" >
         <ProfileBox 
           name=" Kreative Event Management"
-          profession="Ranjith Kunchum "
-          logo="https://scontent.fbom12-1.fna.fbcdn.net/v/t1.0-9/56373626_335651507304032_3818727097287835648_n.jpg?_nc_cat=106&_nc_sid=09cbfe&_nc_ohc=Arr5y0yz2tsAX-m17Pv&_nc_ht=scontent.fbom12-1.fna&oh=be1b6d2574fc591f285f9a76e8aa7425&oe=5F40A3FE"
+          profession="Ranjith Kunchum"
+          logo="https://scontent.fbom12-1.fna.fbcdn.net/v/t1.0-9/107569666_115281330254227_3826448106762454794_n.jpg?_nc_cat=102&_nc_sid=09cbfe&_nc_ohc=jYtoOtzjvc0AX-pH8K2&_nc_ht=scontent.fbom12-1.fna&oh=429b43f7e54b7a3e77e634e6af7d6b20&oe=5F3E4683"
         ></ProfileBox>
   
         <div className="info">
@@ -61,7 +61,7 @@ function Kreativeevents() {
               <Cbutton 
               logo="contact.messenger" 
               text="FB Chat"
-              onclick="window.open('https://m.me/kunchumranjith')"
+              onclick="window.open('https://m.me/Kreative-Event-Management-115279716921055')"
               ></Cbutton>
               <Cbutton 
               logo="contact.saveMe" 
@@ -88,6 +88,10 @@ function Kreativeevents() {
               logo="company.address" 
               text="Address"
               onclick="window.open('https://goo.gl/maps/T4FL9pW35CBeT4W17')"></Cbutton>
+               <Cbutton 
+              logo="company.address" 
+              text="2nd Address"
+              onclick="window.open('https://goo.gl/maps/iGLySAJ3Cp1vRjCZ6')"></Cbutton>
               <Cbutton 
               logo="company.website" 
               text="Website"
@@ -98,7 +102,7 @@ function Kreativeevents() {
             <div className="info-container">
               <Fbutton 
                 logo="follow.facebook"
-                onclick="window.open('https://www.facebook.com/kunchumranjith')">
+                onclick="window.open('https://www.facebook.com/Kreative-Event-Management-115279716921055')">
               </Fbutton>
               <Fbutton 
                 logo="follow.insta"

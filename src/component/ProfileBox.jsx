@@ -1,6 +1,6 @@
 import React from "react"
 
-function ProfileBox({logo,name,profession}) {
+function ProfileBox({logo,name,profession,owner}) {
     
 
     return(
@@ -17,7 +17,7 @@ function ProfileBox({logo,name,profession}) {
 
       </div>
 
-      <h1> {name} </h1> <p> {profession} </p> 
+    <h1> {name} </h1> <p> {profession} </p> {owner && <p>{owner}</p>}
     </div>
 
     </div> 
