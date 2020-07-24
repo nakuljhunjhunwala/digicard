@@ -37,7 +37,7 @@ function Kreativeevents() {
       <div className = "details" >
         <ProfileBox 
           name=" Kreative Event Management"
-          profession="Events management and Equipment hire"
+          profession="Ranjith Kunchum "
           logo="https://scontent.fbom12-1.fna.fbcdn.net/v/t1.0-9/56373626_335651507304032_3818727097287835648_n.jpg?_nc_cat=106&_nc_sid=09cbfe&_nc_ohc=Arr5y0yz2tsAX-m17Pv&_nc_ht=scontent.fbom12-1.fna&oh=be1b6d2574fc591f285f9a76e8aa7425&oe=5F40A3FE"
         ></ProfileBox>
   
@@ -70,7 +70,7 @@ function Kreativeevents() {
               <Cbutton 
              logo="profile.share" 
              text="Share Me"
-             onclick="window.open('https://api.whatsapp.com/send?text=Kreative+Event+Management+-+Event+Management%20-%20https%3A%2F%2Fdigicard.gq%2kreativeevents')">
+             onclick="window.open('https://api.whatsapp.com/send?text=Kreative+Event+Management+-+Event+Management%20-%20https%3A%2F%2Fdigicard.gq%2fkreativeevents')">
 
              </Cbutton>
               <Cbutton 
