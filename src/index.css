@@ -1,24 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
 
 
-body {
-  margin: 0;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://images.pexels.com/photos/583846/pexels-photo-583846.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  color: floralwhite;
-  font-family: 'Roboto', 'san-serif';
-}
-
-::-webkit-scrollbar {
-  width: 2px;
-}
-
 
 .preloader{
   position: fixed;
@@ -39,6 +21,26 @@ body {
   animation: preloading 1s infinite ;
 
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://images.pexels.com/photos/583846/pexels-photo-583846.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: floralwhite;
+  font-family: 'Roboto', 'san-serif';
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+
 
 
 @keyframes preloading{
