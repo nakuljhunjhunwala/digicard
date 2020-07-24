@@ -90,7 +90,7 @@ function Kreativeevents() {
               onclick="window.open('https://goo.gl/maps/T4FL9pW35CBeT4W17')"></Cbutton>
                <Cbutton 
               logo="company.address" 
-              text="2nd Address"
+              text="2nd Addr"
               onclick="window.open('https://goo.gl/maps/iGLySAJ3Cp1vRjCZ6')"></Cbutton>
               <Cbutton 
               logo="company.website" 
