@@ -26,7 +26,7 @@ function Kreativeevents() {
         vcf="https://www.vcard.link/card/D7nA.vcf"
       ></SaveContact>
       <PayMe 
-      gpay="8978675645"
+      gpay="9036020025"
       phonepe="9036020025"
       pytm="9036020025"
       upi="9036020025@ybl"
