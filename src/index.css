@@ -1,25 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
 
-
-
-.preloader{
+.preloader {
   position: fixed;
   height: 100%;
   width: 100%;
-  background-color: rgb(111, 231, 247) ;
+  background-color: rgb(111, 231, 247);
   z-index: 100;
   display: block;
   transition: display 0.5s ease;
 }
 
-.preloader img{
+.preloader img {
   position: absolute;
   height: 80px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: preloading 1s infinite ;
-
+  animation: preloading 1s infinite;
 }
 
 body {
@@ -33,26 +30,66 @@ body {
   background-size: cover;
   background-attachment: fixed;
   color: floralwhite;
-  font-family: 'Roboto', 'san-serif';
+  font-family: "Roboto", "san-serif";
 }
 
 ::-webkit-scrollbar {
   width: 2px;
 }
 
-
-
-
-@keyframes preloading{
-  from {opacity: 1; }
-  to { opacity: 0.5; }
+@keyframes preloading {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
 }
 
-@-webkit-keyframes preloading{
-  from {opacity: 1; }
-  to { opacity: 0.5; }
+@-webkit-keyframes preloading {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
 }
 
+.homepage_header {
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 40px;
+  /* text-align: justify; */
+}
+.homepage_header h2,
+h3,
+h4 {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.homepage_body {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 40px;
+  text-align: justify;
+}
+
+.homepage_button {
+  padding: 15px;
+  margin-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 3px;
+  border: none;
+  background-color: #006977;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
 
 .digicard {
   min-height: 100vh;
@@ -60,13 +97,12 @@ body {
   max-width: 400px;
   background-color: brown;
   margin: auto;
-  
+
   overflow-x: hidden;
   background-image: url("https://app.makevcard.com/public/vcard5/vjimages/realestate2-min.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .pback {
@@ -78,8 +114,6 @@ body {
 .details {
   position: relative;
   width: 100%;
- 
- 
 }
 
 .profile-box {
@@ -105,18 +139,15 @@ body {
   margin: auto;
 }
 
-
 .container h1 {
   font-weight: 700;
   font-size: 19px;
 }
 
-
 .container p {
   font-weight: 400;
   font-size: 16px;
 }
-
 
 .info {
   width: 100%;
@@ -155,10 +186,9 @@ body {
   margin-left: 5px;
   color: antiquewhite;
   cursor: pointer;
-
 }
 
-.button{
+.button {
   height: 43px;
   width: 43px;
   border-radius: 100%;
@@ -168,14 +198,11 @@ body {
   line-height: 43px;
 }
 
-
-.button-box p{
+.button-box p {
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
 }
-
-
 
 .fbutton-box {
   width: 45px;
@@ -185,10 +212,9 @@ body {
   margin-left: 5px;
   color: antiquewhite;
   cursor: pointer;
-
 }
 
-.fbutton{
+.fbutton {
   height: 38px;
   width: 38px;
   border-radius: 100%;
@@ -197,8 +223,7 @@ body {
   line-height: 38px;
 }
 
-.footer{
-  
+.footer {
   height: 20px;
   background-color: #222222;
   min-width: 100%;
@@ -215,7 +240,7 @@ body {
   margin-top: 20px;
 }
 
-.blankpage{
+.blankpage {
   position: fixed;
   background-color: white;
   height: 100%;
@@ -227,7 +252,7 @@ body {
   transition: all 0.3s ease;
 }
 
-.blankpage h2{
+.blankpage h2 {
   background-image: url("https://app.makevcard.com/public/vcard5/vjimages/realestate2-min.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -237,28 +262,27 @@ body {
   font-size: 25px;
   font-weight: 400;
   padding: 15px;
- 
 }
 
-.blankpage img{
+.blankpage img {
   height: 150px;
   width: 150px;
 }
 
-.b-container{
-  color:#555555;
+.b-container {
+  color: #555555;
   font-size: 16px;
   font-weight: 500;
   padding: 5px;
 }
 
-.b-container p{
+.b-container p {
   text-align: center;
 }
 
-.closeMe{
+.closeMe {
   padding: 13px 20px;
-  background-color:rgb(111, 231, 247) ;
+  background-color: rgb(111, 231, 247);
   font-size: 15px;
   font-weight: 400;
   color: black;
@@ -269,22 +293,98 @@ body {
   cursor: pointer;
 }
 
-
-.normal-container{
+.normal-container {
   justify-content: left;
- 
+
   margin-top: 40px;
 }
 
-.s2{
+.s2 {
   margin-top: 20px;
   margin-left: 5px;
   font-size: 13px;
 }
 
-.inline{
-  display:flex;
+.inline {
+  display: flex;
   flex-direction: row;
   cursor: pointer;
   margin-top: -20px;
+}
+
+.create-header h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.create-body-form {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form-input {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.form-input p {
+  flex: 0.3;
+  font-size: 15px;
+}
+.form-input input {
+  flex: 0.69;
+  width: 100%;
+  height: 20px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-input input:focus {
+  outline: none;
+}
+
+.username_div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.usernameInput {
+  background: transparent;
+  height: 18px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #ccc;
+  width: 70px;
+  font: 10px;
+  border: none;
+  margin-left: 5px;
+  margin-top: 1px;
+  border-bottom: 2px solid #ccc;
+}
+.usernameInput:focus {
+  outline: none;
+}
+
+.form_button {
+  display: flex;
+  justify-content: center;
+}
+.form_button button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(9, 91, 100);
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
