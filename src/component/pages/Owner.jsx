@@ -6,6 +6,7 @@ import ProfileBox from "../ProfileBox";
 import Preloader from "../Preloader";
 import SaveContact from "../SaveContact";
 import PayMe from "../PayMe";
+import logo from '../../images/profile.jpg'
 
 function Owner() {
   useEffect(() => {
@@ -36,8 +37,8 @@ function Owner() {
         <div className="details">
           <ProfileBox
             name="Nakul Jhunjhunwala"
-            profession="Web Developer"
-            logo="https://scontent.fnag8-1.fna.fbcdn.net/v/t39.30808-6/216567219_3045849355741206_7734272621270797606_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=hSxm9tYI1rkAX886OFv&_nc_ht=scontent.fnag8-1.fna&oh=00_AT-49MpzFysw7TZZ-5EvxgeSDF2wyAdU8Uw2odQ0OBOa8w&oe=61CDEBE9"
+            profession="Software Engineer"
+            logo={logo}
           ></ProfileBox>
 
           <div className="info">
