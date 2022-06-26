@@ -24,7 +24,7 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://images.pexels.com/photos/583846/pexels-photo-583846.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-image: url("./images/background-image.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -97,9 +97,9 @@ h4 {
   max-width: 400px;
   background-color: brown;
   margin: auto;
-
   overflow-x: hidden;
-  background-image: url("https://app.makevcard.com/public/vcard5/vjimages/realestate2-min.jpg");
+  background-image: linear-gradient(rgba(19, 15, 15, 0.7),
+      rgba(19, 15, 15, 0.7)), url("./images/bgimage.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
